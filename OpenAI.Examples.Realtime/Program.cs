@@ -18,7 +18,8 @@ public class Program
 
         RealtimeConversationSessionOptions sessionOptions = new()
         {
-            Tools = {
+            Tools =
+            {
                 FunctionTools.GetCurrentWeatherTool,
             },
             AudioOptions = new()
